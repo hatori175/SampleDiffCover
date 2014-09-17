@@ -1,0 +1,5 @@
+C:\Projects\DiffCover - Copy\master\Bin\SampleApp.dll
+C:\Projects\DiffCover - Copy\master\Bin\SampleApp.pdb
+C:\Projects\DiffCover - Copy\master\SampleApp\obj\Debug\SampleApp.csprojResolveAssemblyReference.cache
+C:\Projects\DiffCover - Copy\master\SampleApp\obj\Debug\SampleApp.dll
+C:\Projects\DiffCover - Copy\master\SampleApp\obj\Debug\SampleApp.pdb
