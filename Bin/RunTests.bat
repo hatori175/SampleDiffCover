@@ -1,1 +1,1 @@
-C:\Projects\DiffCover\Lib\NUnit\nunit-console-x86.exe C:\Projects\diffcover\Bin\SampleTestApp.dll /noshadow
+..\packages\Nunit\nunit-console-x86.exe SampleTestApp.dll /noshadow
