@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+  <Summary numSequencePoints="12" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="75" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
   <Modules>
     <Module skippedDueTo="Filter" hash="E9-A8-6A-CC-31-FF-25-91-E6-86-F2-D5-72-EE-77-7D-AB-36-F0-0B">
       <FullName>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
@@ -77,7 +77,7 @@
       <ModuleName>nunit.core.interfaces</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="E3-64-9D-B4-4F-C1-65-5C-CB-D9-6B-CC-0C-2C-D7-B5-D7-A9-9E-8E">
+    <Module skippedDueTo="Filter" hash="18-A8-F5-70-34-55-F3-BC-98-A1-EB-FC-1D-62-77-A2-92-14-0C-96">
       <FullName>C:\Projects\samplediff\Bin\SampleTestApp.dll</FullName>
       <ModuleName>SampleTestApp</ModuleName>
       <Classes />
@@ -87,8 +87,8 @@
       <ModuleName>nunit.framework</ModuleName>
       <Classes />
     </Module>
-    <Module hash="3D-11-E6-B6-CA-8A-A1-E0-3A-E8-F4-59-1F-4E-7E-A2-E3-11-43-E1">
-      <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+    <Module hash="32-42-23-96-27-35-14-0B-8A-C9-12-D6-F7-AC-09-AC-FE-73-32-C2">
+      <Summary numSequencePoints="12" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="75" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
       <FullName>C:\Projects\samplediff\Bin\SampleApp.dll</FullName>
       <ModuleName>SampleApp</ModuleName>
       <Files>
@@ -101,7 +101,7 @@
           <Methods />
         </Class>
         <Class>
-          <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <Summary numSequencePoints="12" visitedSequencePoints="9" numBranchPoints="2" visitedBranchPoints="1" sequenceCoverage="75" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
           <FullName>SampleApp.Sample</FullName>
           <Methods>
             <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
@@ -123,13 +123,26 @@
               <BranchPoints />
               <MethodPoint xsi:type="SequencePoint" vc="2" uspid="1" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="1" />
             </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Int32 SampleApp.Sample::DoSomethingNew(System.Int32,System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="11" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="26" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="12" ordinal="2" offset="7" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="10" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
             <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
               <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
-              <MetadataToken>100663298</MetadataToken>
+              <MetadataToken>100663299</MetadataToken>
               <Name>System.Void SampleApp.Sample::.ctor()</Name>
               <SequencePoints />
               <BranchPoints />
-              <MethodPoint vc="0" uspid="10" ordinal="0" offset="0" />
+              <MethodPoint vc="0" uspid="13" ordinal="0" offset="0" />
             </Method>
           </Methods>
         </Class>

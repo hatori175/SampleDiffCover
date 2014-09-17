@@ -18,5 +18,10 @@ namespace SampleApp
                 Console.WriteLine(ex.Message);
             }
         }
+
+        public static int DoSomethingNew(int a,int b)
+        {
+            return a + b;
+        }
     }
 }
